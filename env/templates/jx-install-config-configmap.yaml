@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQfyz87yrpcp4b6oUzbDqwUTANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyQ1MjdlNWZjNC0wYzZhLTQ0MDAtYWExOC1hZjU4ZGQyN2NjMGIw
+    HhcNMTkwNTEwMTYxMTUxWhcNMjQwNTA4MTcxMTUxWjAvMS0wKwYDVQQDEyQ1Mjdl
+    NWZjNC0wYzZhLTQ0MDAtYWExOC1hZjU4ZGQyN2NjMGIwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQCjRSfA1jrZyeXc+m7t3c1Xbe3i7+TDE+wzLmouxrW6
+    rzHBnIu4kRHMMjbnXO+bZ1/TsbgPiLz9yL+JHQ6010SBQ230DanrQgTl4RUnxUU8
+    +LbNEGHRj59Z8aeNRuJTdXSTK+svS0O4EtoiWXROJ3nXWRA9iQsuJMauSoqrX24d
+    WCBqSbCeZjcUY5SvB24BmkfvjW672DUZiRRZd6d4o0oyyWXAzoHgX46qk9EM5BbY
+    QGve2kx5bIen2im1+UgewCfTjdBPwmvJWT6Y+72uVuFtLhSyS3ucO1KZioZcjwkM
+    TLc+8qA92kLDdZH/uGPPcRvNcRCRocdGGMAPFYbXzg+FAgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBs
+    XdaTIuUB/F4R3WigVXU2Az2Y6x6jEfcl4ClFp8mfY8TMzFbP9tIUwGWDRNVJoaUJ
+    Ophnew/pMA2hy3gudjYoEjsc6XHtcLSvKcMyolWp9QXmH2tLTWKwtC9eXzoNa47v
+    HCxkx/UTptWLQtj3z16Xe+Y8bxHpUYfn8g/XmDkMJ1InZ5NM1JKf6UA4ZL/tXyqm
+    Y6C18zWovnOBnWpKSoPd+oIISxkB5B1Gfkecz7quECMP9tV5XqJ0Jc02ZC3Qoo/N
+    pdzKy6bdWowXlSyz4c6+w59uHWLfr0EyeenTuaS4mgr2cHpUFQuMQf5OGg/VuM9v
+    pWBh1J4rHip05ds1HeVC
+    -----END CERTIFICATE-----
+  clusterName: pawplain
+  jx-install-version: 2.0.0-dev+5b2cda58a
+  kubeProvider: gke
+  projectID: apps-dev-229310
+  region: ""
+  secretsLocation: vault
+  server: https://35.240.86.232
+  systemVaultName: jx-vault-pawplain
+  zone: europe-west1-c
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
